@@ -204,15 +204,6 @@ class MainActivity : ComponentActivity() {
         finishAffinity()
     }
 
-//    private fun setAllTypeOfTones() {
-//        val ringtoneUri = Uri.parse("android.resource://$packageName/raw/sound")
-//        RingtoneManager.setActualDefaultRingtoneUri(
-//            this,
-//            RingtoneManager.TYPE_ALL,
-//            ringtoneUri
-//        )
-//    }
-
     private fun setRingTone() {
         val ringtoneUri = Uri.parse("android.resource://$packageName/raw/sound")
         RingtoneManager.setActualDefaultRingtoneUri(
